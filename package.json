@@ -1,0 +1,23 @@
+{
+  "name": "neonix",
+  "version": "1.0.0",
+  "description": "An all purpose Pokétwo grinder software which supports various features like AI based okemon recognition, automatic voting, market snipers, captcha verifiers....",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MaxMady/Neonix.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MaxMady/Neonix/issues"
+  },
+  "homepage": "https://github.com/MaxMady/Neonix#readme",
+  "dependencies": {
+    "discord.js-selfbot-v13": "^2.12.1",
+    "https": "^1.0.0"
+  }
+}
