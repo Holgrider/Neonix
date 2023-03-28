@@ -2,7 +2,7 @@ const axios = require('axios')
 const fs = require('fs');
 const path = require('path');
 require(`colors`)
-const { date , log } = require('./index')
+const { date , log } = require('./manager/util.js')
 const version = require('./version.json')
 const owner = 'MaxMady';
 const repo = 'Neonix';
@@ -15,7 +15,7 @@ async function fetchData(url) {
       const response = await axios.get(url);
       return response.data
     } catch (error) {
-      console.error(`Error fetching data: ${error}`);
+      log(`Error fetching data: ${error}`, `red`, true);
     }
 }
 (async () => {
