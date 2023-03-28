@@ -1,5 +1,5 @@
 const config = ({
-    token: "MTA4OTQzMTU1MDgyOTAxOTEzOA.GSeajI.QPRnG7yb4nENpgjw_VlSCgDXVzPI2Pm3UhyBDA",
+    token: "token",
     autoCatchAI: true, //Toggle autocatcher with AI. [TOGGLE BOTH false TO DISABLE CATCHER]
     autoCatchHint: false, //Toggle autocatcher with hint [DONT TURN BOTH ON]
     poketwo: `716390085896962058`,//This was used for testing purposes
